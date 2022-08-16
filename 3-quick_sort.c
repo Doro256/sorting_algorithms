@@ -22,6 +22,7 @@ void quick_sort(int *array, size_t size)
   * @array: Array to be sorted
   * @left: lower boundary
   * @right: upper boundary
+  * @size: size of the array
   * Return: Nothing
   */
 
@@ -73,6 +74,7 @@ void swap(int *a, int *b)
   * @array: Pointer to an array
   * @left: Starting index
   * @right: Ending index
+  * @size: size of the array
   * Return: Nothing
   */
 
